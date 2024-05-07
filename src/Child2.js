@@ -102,7 +102,6 @@ class Child2 extends Component {
     render() {
         return (
             <div>
-                <label htmlFor="category-select">Choose a category:</label>
                 <select id="category-select" onChange={this.handleCategoryChange}>
                     <option value="A">A</option>
                     <option value="B">B</option>
